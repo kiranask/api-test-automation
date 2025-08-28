@@ -1,0 +1,13 @@
+# requirements.txt
+# ----------------------------------------------------------------------------
+# Why: To ensure all dependencies (with versions) are tracked in one place,
+#      so the project runs the same way on any machine or CI/CD pipeline.
+# What: A list of Python packages required for this project.
+# How:  Run `pip install -r requirements.txt` to install all dependencies.
+# ----------------------------------------------------------------------------
+
+# HTTP library for making API requests
+requests==2.31.0
+
+# Testing framework
+pytest>=7.0.0

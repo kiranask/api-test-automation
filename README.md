@@ -27,3 +27,6 @@ Reporting: Allure, Pytest-HTML
 Validation: JSON Schema
 
 CI/CD: GitHub Actions
+
+# api-test-automation
+Production‑ready, Pytest‑based REST API automation framework scaffold targeting ReqRes (https://reqres.in) with CRUD tests, robust error handling, config‑driven setup, and reporting (Allure & pytest‑html).
