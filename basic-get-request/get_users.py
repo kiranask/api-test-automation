@@ -2,6 +2,8 @@ import requests
 
 BASE_URL = "https://reqres.in/api"
 response = requests.get(f"{BASE_URL}/users?page=2")
+print(response.status_code)
+print(response.json())
 print(response.json())
 def test_get_users():
     # Send GET request
