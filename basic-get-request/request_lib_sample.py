@@ -18,4 +18,4 @@ if "application/json" in response.headers["Content-Type"]:
     response = response.json()
 
 
-print(response["data"]["email"])
+print(response["data"])
